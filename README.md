@@ -3,7 +3,7 @@ Hey there! 👋 I'm Abhinand, a **passionate MERN Stack Developer** with a knack
 
 
 ## 🌐 Socials:
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)]([https://www.facebook.com/me/](https://www.facebook.com/)) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/abhinands.d) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/abhinand-sd) <a href="https://x.com/abhinand_sd_" target="blank"><img align="center" src="https://static.vecteezy.com/system/resources/previews/042/148/611/non_2x/new-twitter-x-logo-twitter-icon-x-social-media-icon-free-png.png" alt="abhinand-sd" height="50" width="50" /></a>
+[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)]([https://www.facebook.com/me/](https://www.facebook.com/)) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/abhinands.d) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/abhinand-sd)  [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/abhinand_sd_)
 
 
 # 💻 Tech Stack:
