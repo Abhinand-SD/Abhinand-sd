@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=140&section=header&text=&animation=fadeIn" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=32&duration=2800&pause=1200&color=A78BFA&center=true&vCenter=true&width=960&lines=Sri+Sushmita+Dasari;AI+%26+Machine+Learning+Engineer;Full+Stack+Developer;AWS+Certified+AI+Practitioner;Competitive+Programmer+%7C+Tech+Fellow" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=32&duration=2800&pause=1200&color=A78BFA&center=true&vCenter=true&width=960&lines=Mr+Abhinand+SD;AI+%26+Full+Stack+Developer;AWS+Certified+AI+Practitioner;Competitive+Programmer+%7C+Tech+Fellow" alt="Typing SVG" />
 
 <br/>
 
@@ -19,24 +19,24 @@
     <img src="https://img.shields.io/badge/Portfolio-Live-A78BFA?style=for-the-badge&logo=vercel&logoColor=white"/>
   </a>
   &nbsp;
-  <a href="https://www.linkedin.com/in/sushmita-dasari-227a40284/" target="_blank">
+  <a href="https://www.linkedin.com/in/abhinand-sd/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
   &nbsp;
-  <a href="mailto:sushmitadasari17@gmail.com">
+  <a href="mailto:abhinandsd49@gmail.com">
     <img src="https://img.shields.io/badge/Email-Reach_Out-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
   &nbsp;
-  <a href="https://github.com/Sushmitadasari" target="_blank">
+  <a href="https://github.com/abhinand-sd" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
 </p>
 
 <img src="https://komarev.com/ghpvc/?username=Sushmitadasari&color=7C3AED&style=flat-square&label=Profile+Views"/>
 &nbsp;
-<img src="https://img.shields.io/github/followers/Sushmitadasari?style=flat-square&color=6366F1&label=Followers"/>
+<img src="https://img.shields.io/github/followers/abhinand-sd?style=flat-square&color=6366F1&label=Followers"/>
 &nbsp;
-<img src="https://img.shields.io/github/stars/Sushmitadasari?style=flat-square&color=A78BFA&label=Stars"/>
+<img src="https://img.shields.io/github/stars/abhinand-sd?style=flat-square&color=A78BFA&label=Stars"/>
 
 </div>
 
@@ -113,7 +113,7 @@ I combine the rigor of competitive programming (650+ problems across LeetCode, G
 | **Accuracy** | 92% analysis accuracy |
 | **Impact** | 60% reduction in manual review time |
 | **Delivery** | Web · Mobile · Browser Extension · Desktop |
-| **Repository** | [github.com/Sushmitadasari/PolicyGuard-AI](https://github.com/Sushmitadasari/PolicyGuard-AI) |
+| **Repository** | [github.com/abhinand-sd/PolicyGuard-AI](https://github.com/abhinand-sd/PolicyGuard-AI) |
 
 **What it does:** Parses and interprets complex policy documents at scale using LLMs and NLP pipelines. Surfaces structured policy insights in real time across multiple client platforms, eliminating hours of manual legal and compliance review.
 
@@ -133,7 +133,7 @@ I combine the rigor of competitive programming (650+ problems across LeetCode, G
 | **Uptime** | 99.8% system availability |
 | **Performance** | 40% reduction in API response time |
 | **Architecture** | Dockerized microservices |
-| **Repository** | [github.com/Sushmitadasari/Payment-gateway-system-Project](https://github.com/Sushmitadasari/Payment-gateway-system-Project) |
+| **Repository** | [github.com/abhinand-sd/Payment-gateway-system-Project](https://github.com/abhinand-sd/Payment-gateway-system-Project) |
 
 **What it does:** End-to-end payment system with secure transaction handling, idempotency guarantees, and containerized deployment. Built with a focus on reliability, auditability, and horizontal scalability.
 
@@ -153,7 +153,7 @@ I combine the rigor of competitive programming (650+ problems across LeetCode, G
 | **Security** | JWT authentication · RBAC authorization |
 | **Operations** | One-click deployment pipeline |
 | **Record** | Zero unauthorized access incidents |
-| **Repository** | [github.com/Sushmitadasari/Multi-Tenant-SaaS-Platform](https://github.com/Sushmitadasari/Multi-Tenant-SaaS-Platform) |
+| **Repository** | [github.com/abhinand-sd/Multi-Tenant-SaaS-Platform](https://github.com/abhinand-sd/Multi-Tenant-SaaS-Platform) |
 
 **What it does:** Full multi-tenancy infrastructure with strict data isolation between tenants, row-level security, and centralized identity management. Designed for startup-to-enterprise scale with minimal operational overhead.
 
