@@ -114,7 +114,195 @@
     </circle>
     <circle cx="1100" cy="300" r="2">
       <animate attributeName="cy" values="300;0" dur="18s" repeatCount="indefinite" />
-      <animate attributeName="opacity"
+      <animate attributeName="opacity" values="0;0.5;0" dur="18s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <rect width="100%" height="100%" filter="url(#noise)" opacity="0.4" style="mix-blend-mode: overlay;" />
+
+  <g transform="translate(30, 30)">
+    <rect x="0" y="0" width="1120" height="550" rx="20" fill="#0F172A" fill-opacity="0.5" filter="url(#glass-blur)" />
+    
+    <rect x="0" y="0" width="1120" height="550" rx="20" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.5" />
+    <rect x="0" y="0" width="1120" height="550" rx="20" fill="none" stroke="url(#accent-gradient)" stroke-width="1.5" opacity="0.4" clip-path="url(#panel-clip)">
+      <animate attributeName="opacity" values="0.1;0.5;0.1" dur="6s" repeatCount="indefinite" />
+    </rect>
+
+    <g transform="translate(40, 60)">
+      <animateTransform attributeName="transform" type="translate" values="40,60; 40,50; 40,60" dur="6s" repeatCount="indefinite" />
+      
+      <circle cx="160" cy="180" r="150" fill="url(#ascii-gradient)" opacity="0.15" filter="url(#glow-strong)">
+        <animate attributeName="r" values="130;160;130" dur="4s" repeatCount="indefinite" />
+      </circle>
+
+      <g clip-path="url(#ascii-clip)">
+        <text x="0" y="0" font-family="monospace" font-size="12" font-weight="bold" fill="url(#ascii-gradient)" style="white-space: pre;" letter-spacing="1.5">
+          <tspan x="0" dy="1.2em">              _,.-------.,_              </tspan>
+          <tspan x="0" dy="1.2em">          ,;~'             '~;,          </tspan>
+          <tspan x="0" dy="1.2em">        ,;                     ;,        </tspan>
+          <tspan x="0" dy="1.2em">       ;                         ;       </tspan>
+          <tspan x="0" dy="1.2em">      ,'                         ',      </tspan>
+          <tspan x="0" dy="1.2em">     ,;                           ;,     </tspan>
+          <tspan x="0" dy="1.2em">     ; ;      .           .      ; ;     </tspan>
+          <tspan x="0" dy="1.2em">     | ;   ______       ______   ; |     </tspan>
+          <tspan x="0" dy="1.2em">     |  `/~"     ~" . "~     "~\'  |     </tspan>
+          <tspan x="0" dy="1.2em">     |  ~  ,-~~~^~, | ,~^~~~-,  ~  |     </tspan>
+          <tspan x="0" dy="1.2em">      |   |        }:{        |   |      </tspan>
+          <tspan x="0" dy="1.2em">      |   l       / | \       !   |      </tspan>
+          <tspan x="0" dy="1.2em">      .~  (__,.--" .^. "--.,__)  ~.      </tspan>
+          <tspan x="0" dy="1.2em">      |     ---;' / | \ `;---     |      </tspan>
+          <tspan x="0" dy="1.2em">       \__.       \/^\/       .__/       </tspan>
+          <tspan x="0" dy="1.2em">        V| \                 / |V        </tspan>
+          <tspan x="0" dy="1.2em">         | |T~\___!___!___/~T| |         </tspan>
+          <tspan x="0" dy="1.2em">         | |`IIII_I_I_I_IIII'| |         </tspan>
+          <tspan x="0" dy="1.2em">         |  \,III I I I III,/  |         </tspan>
+          <tspan x="0" dy="1.2em">          \   `~~~~~~~~~~'    /          </tspan>
+          <tspan x="0" dy="1.2em">            \   .       .   /            </tspan>
+          <tspan x="0" dy="1.2em">              \.    ^    ./              </tspan>
+          <tspan x="0" dy="1.2em">                ^~~~^~~~^                </tspan>
+        </text>
+      </g>
+
+      <rect x="0" y="0" width="350" height="2" fill="url(#ascii-gradient)" opacity="0.6">
+        <animate attributeName="y" values="0; 350; 0" dur="8s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0;0.8;0" dur="8s" repeatCount="indefinite" />
+      </rect>
+    </g>
+
+    <g transform="translate(420, 40)">
+      
+      <g transform="translate(0, 0)">
+        <circle cx="10" cy="10" r="6" fill="#EF4444" opacity="0.8" />
+        <circle cx="30" cy="10" r="6" fill="#F59E0B" opacity="0.8" />
+        <circle cx="50" cy="10" r="6" fill="#10B981" opacity="0.8" />
+        <text x="75" y="14" font-family="sans-serif" font-size="12" fill="#94A3B8" font-weight="500" letter-spacing="1">guest@abhinand: ~</text>
+      </g>
+
+      <line x1="0" y1="30" x2="660" y2="30" stroke="rgba(255,255,255,0.05)" stroke-width="1" />
+
+      <g transform="translate(0, 70)" font-family="sans-serif">
+        
+        <text x="0" y="0" font-size="36" font-weight="800" fill="#F8FAFC" letter-spacing="-0.5">
+          Hi 👋 I'm <tspan fill="url(#accent-gradient)">Abhinand SD</tspan>
+        </text>
+
+        <g transform="translate(0, 45)" font-family="monospace" font-size="20" font-weight="600">
+          <text x="0" y="0" fill="#94A3B8">&gt; </text>
+          
+          <g transform="translate(20, 0)">
+            <text x="0" y="0" fill="#22D3EE" clip-path="url(#type-clip-1)">Software Engineer</text>
+            <text x="0" y="0" fill="#7C3AED" clip-path="url(#type-clip-2)">Full Stack Developer</text>
+            <text x="0" y="0" fill="#10B981" clip-path="url(#type-clip-3)">Open Source Contributor</text>
+            <text x="0" y="0" fill="#06B6D4" clip-path="url(#type-clip-4)">UI Engineer</text>
+            <text x="0" y="0" fill="#8B5CF6" clip-path="url(#type-clip-5)">AI Enthusiast</text>
+            
+            <text x="0" y="0" fill="#F8FAFC">
+              <animate attributeName="x" values="180; 220; 250; 120; 140" keyTimes="0; 0.2; 0.4; 0.6; 0.8" dur="15s" repeatCount="indefinite" />
+              |
+              <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite" />
+            </text>
+          </g>
+        </g>
+
+        <g transform="translate(0, 100)" font-size="15" font-family="monospace" fill="#94A3B8">
+          <g opacity="0">
+            <animate attributeName="opacity" values="0;1;1" keyTimes="0; 0.1; 1" dur="2s" fill="freeze" />
+            <text x="0" y="0">Location: <tspan fill="#F8FAFC">Banglore</tspan></text>
+          </g>
+          <g opacity="0">
+            <animate attributeName="opacity" values="0;1;1" keyTimes="0; 0.1; 1" begin="0.3s" dur="2s" fill="freeze" />
+            <text x="0" y="25">Education:<tspan fill="#F8FAFC"> B.Tech CSE</tspan></text>
+          </g>
+          <g opacity="0">
+            <animate attributeName="opacity" values="0;1;1" keyTimes="0; 0.1; 1" begin="0.6s" dur="2s" fill="freeze" />
+            <text x="0" y="50">Focus:    <tspan fill="#F8FAFC"> Software development</tspan></text>
+          </g>
+          <g opacity="0">
+            <animate attributeName="opacity" values="0;1;1" keyTimes="0; 0.1; 1" begin="0.9s" dur="2s" fill="freeze" />
+            <text x="0" y="75">Portfolio:<tspan fill="#22D3EE"> https://abhinandsdin.vercel.app/</tspan></text>
+          </g>
+          <g opacity="0">
+            <animate attributeName="opacity" values="0;1;1" keyTimes="0; 0.1; 1" begin="1.2s" dur="2s" fill="freeze" />
+            <text x="0" y="100">Email:    <tspan fill="#F8FAFC"> abhinandsd49@gmail.com</tspan></text>
+          </g>
+        </g>
+
+        <g transform="translate(0, 245)">
+          <text x="0" y="0" font-size="14" font-weight="bold" fill="#F8FAFC" letter-spacing="1" opacity="0">
+            <animate attributeName="opacity" values="0;1;1" keyTimes="0; 0.1; 1" begin="1.5s" dur="2s" fill="freeze" />
+            TECH STACK
+          </text>
+          
+          <g transform="translate(0, 15)" font-size="13" font-family="sans-serif" font-weight="600" opacity="0">
+            <animate attributeName="opacity" values="0;1;1" keyTimes="0; 0.1; 1" begin="1.8s" dur="2s" fill="freeze" />
+            
+            <g transform="translate(0, 0)">
+              <rect x="0" y="0" width="70" height="30" rx="15" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.1)"/>
+              <text x="35" y="19" fill="#E2E8F0" text-anchor="middle">React</text>
+
+              <rect x="80" y="0" width="80" height="30" rx="15" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.1)"/>
+              <text x="120" y="19" fill="#E2E8F0" text-anchor="middle">Next.js</text>
+
+              <rect x="170" y="0" width="80" height="30" rx="15" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.1)"/>
+              <text x="210" y="19" fill="#E2E8F0" text-anchor="middle">Node.js</text>
+
+              <rect x="260" y="0" width="105" height="30" rx="15" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.1)"/>
+              <text x="312.5" y="19" fill="#E2E8F0" text-anchor="middle">TypeScript</text>
+              
+              <rect x="375" y="0" width="85" height="30" rx="15" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.1)"/>
+              <text x="417.5" y="19" fill="#E2E8F0" text-anchor="middle">Tailwind</text>
+            </g>
+
+            <g transform="translate(0, 40)">
+              <rect x="0" y="0" width="75" height="30" rx="15" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.1)"/>
+              <text x="37.5" y="19" fill="#E2E8F0" text-anchor="middle">Python</text>
+
+              <rect x="85" y="0" width="75" height="30" rx="15" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.1)"/>
+              <text x="122.5" y="19" fill="#E2E8F0" text-anchor="middle">Docker</text>
+
+              <rect x="170" y="0" width="85" height="30" rx="15" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.1)"/>
+              <text x="212.5" y="19" fill="#E2E8F0" text-anchor="middle">Postgres</text>
+
+              <rect x="265" y="0" width="60" height="30" rx="15" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.1)"/>
+              <text x="295" y="19" fill="#E2E8F0" text-anchor="middle">AWS</text>
+
+              <rect x="335" y="0" width="50" height="30" rx="15" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.1)"/>
+              <text x="360" y="19" fill="#E2E8F0" text-anchor="middle">Git</text>
+
+              <rect x="395" y="0" width="65" height="30" rx="15" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.1)"/>
+              <text x="427.5" y="19" fill="#E2E8F0" text-anchor="middle">Figma</text>
+            </g>
+          </g>
+        </g>
+
+        <g transform="translate(0, 360)" fill="#94A3B8" opacity="0">
+          <animate attributeName="opacity" values="0;1;1" keyTimes="0; 0.1; 1" begin="2.1s" dur="2s" fill="freeze" />
+          
+          <g transform="translate(0, 0)">
+            <circle cx="15" cy="15" r="15" fill="rgba(255,255,255,0.05)" />
+            <path d="M15 5.5c-5.25 0-9.5 4.25-9.5 9.5 0 4.2 2.72 7.76 6.5 9.02.48.09.65-.21.65-.46v-1.63c-2.64.57-3.2-1.28-3.2-1.28-.43-1.1-1.06-1.39-1.06-1.39-.86-.59.07-.58.07-.58.95.07 1.45.98 1.45.98.85 1.45 2.22 1.03 2.76.79.09-.61.33-1.03.6-1.27-2.11-.24-4.33-1.06-4.33-4.7 0-1.04.37-1.89.98-2.55-.1-.24-.43-1.21.09-2.52 0 0 .8-.26 2.62.98a9.12 9.12 0 0 1 2.38-.32c.81.01 1.62.11 2.38.32 1.82-1.24 2.62-.98 2.62-.98.52 1.31.2 2.28.1 2.52.61.66.98 1.51.98 2.55 0 3.65-2.23 4.45-4.35 4.69.34.29.64.87.64 1.75v2.6c0 .26.17.56.66.46C21.78 22.76 24.5 19.2 24.5 15c0-5.25-4.25-9.5-9.5-9.5z" fill="currentColor"/>
+          </g>
+
+          <g transform="translate(45, 0)">
+            <circle cx="15" cy="15" r="15" fill="rgba(255,255,255,0.05)" />
+            <path d="M8.8 22H5.5V10.7h3.3V22zM7.2 9.2c-1.1 0-1.9-.8-1.9-1.9s.8-1.9 1.9-1.9 1.9.8 1.9 1.9-.8 1.9-1.9 1.9zM24.5 22h-3.3v-5.5c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9V22h-3.3V10.7h3.2v1.5h.1c.4-.8 1.5-1.7 3.1-1.7 3.3 0 3.9 2.2 3.9 5v6.5z" fill="currentColor"/>
+          </g>
+
+          <g transform="translate(90, 0)">
+            <circle cx="15" cy="15" r="15" fill="rgba(255,255,255,0.05)" />
+            <path d="M18.8 6.5h2.5l-5.5 6.3 6.5 8.7h-5.1l-4-5.2-4.5 5.2H6.2l5.8-6.6-6.1-8.4h5.2l3.6 4.8 4.1-4.8zm-.9 13.5h1.4L11.5 8h-1.5l8.1 12z" fill="currentColor"/>
+          </g>
+
+          <g transform="translate(135, 0)">
+            <circle cx="15" cy="15" r="15" fill="rgba(255,255,255,0.05)" />
+            <path d="M12.6 15.4c-.6.6-1.5.6-2.1 0-.6-.6-.6-1.5 0-2.1l2.8-2.8c1.2-1.2 3.1-1.2 4.2 0 1.2 1.2 1.2 3.1 0 4.2l-1.4 1.4M17.4 14.6c.6-.6 1.5-.6 2.1 0 .6.6.6 1.5 0 2.1l-2.8 2.8c-1.2 1.2-3.1 1.2-4.2 0-1.2-1.2-1.2-3.1 0-4.2l1.4-1.4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
+
 
 
 
