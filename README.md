@@ -1,3 +1,126 @@
+<svg width="1180" height="610" viewBox="0 0 1180 610" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="noise">
+      <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch" />
+      <feColorMatrix type="matrix" values="1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 0.05 0" />
+    </filter>
+
+    <linearGradient id="accent-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7C3AED" />
+      <stop offset="50%" stop-color="#22D3EE" />
+      <stop offset="100%" stop-color="#10B981" />
+      <animate attributeName="x1" values="0%;100%;0%" dur="10s" repeatCount="indefinite" />
+      <animate attributeName="y1" values="0%;100%;0%" dur="10s" repeatCount="indefinite" />
+    </linearGradient>
+
+    <linearGradient id="ascii-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4" />
+      <stop offset="100%" stop-color="#8B5CF6" />
+      <animate attributeName="x1" values="0%;100%;0%" dur="8s" repeatCount="indefinite" />
+      <animate attributeName="x2" values="100%;0%;100%" dur="8s" repeatCount="indefinite" />
+    </linearGradient>
+
+    <radialGradient id="bg-glow-1" cx="20%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#030712" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="bg-glow-2" cx="80%" cy="80%" r="50%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#030712" stop-opacity="0" />
+    </radialGradient>
+    
+    <radialGradient id="bg-glow-3" cx="50%" cy="50%" r="40%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#030712" stop-opacity="0" />
+    </radialGradient>
+
+    <filter id="glass-blur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="glow-strong">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <clipPath id="panel-clip">
+      <rect x="0" y="0" width="1180" height="610" rx="24" />
+    </clipPath>
+
+    <clipPath id="type-clip-1">
+      <rect x="0" y="-20" width="0" height="30">
+        <animate attributeName="width" values="0;200;200;0;0" keyTimes="0; 0.05; 0.15; 0.20; 1" dur="15s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-clip-2">
+      <rect x="0" y="-20" width="0" height="30">
+        <animate attributeName="width" values="0;0;220;220;0;0" keyTimes="0; 0.20; 0.25; 0.35; 0.40; 1" dur="15s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-clip-3">
+      <rect x="0" y="-20" width="0" height="30">
+        <animate attributeName="width" values="0;0;260;260;0;0" keyTimes="0; 0.40; 0.45; 0.55; 0.60; 1" dur="15s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-clip-4">
+      <rect x="0" y="-20" width="0" height="30">
+        <animate attributeName="width" values="0;0;150;150;0;0" keyTimes="0; 0.60; 0.65; 0.75; 0.80; 1" dur="15s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-clip-5">
+      <rect x="0" y="-20" width="0" height="30">
+        <animate attributeName="width" values="0;0;160;160;0" keyTimes="0; 0.80; 0.85; 0.95; 1" dur="15s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+
+    <clipPath id="ascii-clip">
+      <rect x="0" y="0" width="400" height="0">
+        <animate attributeName="height" values="0;450;450" keyTimes="0; 0.3; 1" dur="4s" fill="freeze" />
+      </rect>
+    </clipPath>
+  </defs>
+
+  <rect width="100%" height="100%" fill="#030712" />
+  
+  <circle cx="20%" cy="30%" r="600" fill="url(#bg-glow-1)">
+    <animate attributeName="cx" values="20%;30%;20%" dur="20s" repeatCount="indefinite" />
+    <animate attributeName="cy" values="30%;40%;30%" dur="25s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="80%" cy="80%" r="600" fill="url(#bg-glow-2)">
+    <animate attributeName="cx" values="80%;70%;80%" dur="22s" repeatCount="indefinite" />
+    <animate attributeName="cy" values="80%;60%;80%" dur="28s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="50%" cy="50%" r="500" fill="url(#bg-glow-3)">
+    <animate attributeName="r" values="400;500;400" dur="15s" repeatCount="indefinite" />
+  </circle>
+
+  <g fill="#22D3EE" opacity="0.3">
+    <circle cx="100" cy="500" r="2">
+      <animate attributeName="cy" values="500;100" dur="15s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.5;0" dur="15s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="900" cy="600" r="1.5">
+      <animate attributeName="cy" values="600;200" dur="20s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.6;0" dur="20s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="500" cy="400" r="2.5">
+      <animate attributeName="cy" values="400;50" dur="12s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.4;0" dur="12s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1100" cy="300" r="2">
+      <animate attributeName="cy" values="300;0" dur="18s" repeatCount="indefinite" />
+      <animate attributeName="opacity"
+
+
+
+
+
+
 # 💫 About Me:
 Hey there! 👋 I'm Abhinand, a **passionate MERN Stack Developer** with a knack for **full-stack applications** and a special interest in **data structures**. I love solving complex **real-world problems** and building **responsive, dynamic applications** using **JavaScript, Node.js, Express, MongoDB, and React**. With a strong foundation in **data structures**, I aim to write clean, efficient code to optimize both performance and user experience. 🌐💡<br><br>### Ask me about:<br>- **Web Development** 🔧 – particularly with the MERN stack!<br>- **Data Structures & Algorithms** 📐 – from arrays and linked lists to trees and graphs, I enjoy diving deep into data organization and efficiency.<br>- **Database Design** 📊 – crafting optimized schemas is my jam.<br>- **Problem Solving** 🧩 – there's nothing better than tackling a tricky coding challenge!<br><br>## Fun Fact 🎉<br>I'm always on the lookout for new ways to make code **simpler and more efficient**, and I believe the right data structure can be a game-changer in any project!
 
