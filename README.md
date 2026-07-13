@@ -1,4 +1,56 @@
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./light.svg">
+    <img alt="Abhinand SD - GitHub Profile Banner" src="./dark.svg" width="100%">
+  </picture>
+</div>
 
+<br />
+
+## 👨‍💻 About Me
+
+I am a Software Engineer and Full Stack Developer focused on building robust, scalable applications and seamless user experiences. 
+
+* 🔭 **Currently working on:** Enterprise software and full-stack web applications.
+* 🌱 **Currently learning:** Advanced AI integrations and scalable cloud architectures.
+* 💬 **Ask me about:** React, Next.js, Node.js, and database management.
+* 📫 **How to reach me:** [abhinandsd49@gmail.com](mailto:abhinandsd49@gmail.com)
+
+<br />
+
+## 🛠️ Languages and Tools
+
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="40" alt="nextjs logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="nodejs logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="typescript logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg" height="40" alt="tailwindcss logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="40" alt="docker logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40" alt="postgresql logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" height="40" alt="aws logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git logo"  />
+</div>
+
+<br />
+
+## 📈 GitHub Stats
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=abhinand-sd&show_icons=true&theme=transparent&hide_border=true&title_color=10B981&icon_color=22D3EE&text_color=94A3B8" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=abhinand-sd&theme=transparent&hide_border=true&title_color=10B981&icon_color=22D3EE&text_color=94A3B8" alt="GitHub Streak" />
+</div>
 
 
 
