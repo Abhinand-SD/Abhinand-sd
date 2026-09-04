@@ -85,7 +85,7 @@ Open To:
   - Open source collaborations
 ```
 ---
-
+.
 ## Connect
 
 <div align="center">
