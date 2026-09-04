@@ -84,7 +84,7 @@ Open To:
   - AI / ML Engineer opportunities
   - Open source collaborations
 ```
-
+.
 ---
 
 ## Connect
